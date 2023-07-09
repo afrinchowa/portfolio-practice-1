@@ -1,0 +1,100 @@
+/* common Shared Styles */
+body{
+    font-family: 'Work Sans', sans-serif; 
+}
+/* Header section */
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.banner {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+.banner-content{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.banner-head{
+    color:#151414;
+    font-size: 65px;
+    font-weight: 700;
+    display: flex;
+width: 525px;
+flex-direction: column;
+flex-shrink: 0;
+margin: 216px 230px 24px 845px;
+    
+}
+.banner-description{
+    display: flex;
+    width: 494px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 230px 32px 876px;
+}
+#btn1{
+    margin: 0 230px 262px 876px;
+}
+.body1{
+    width: 527.929px;
+height: 527.929px;
+border-radius: 527.929px;
+background: rgba(241, 91, 34, 0.20);
+
+}
+.img1{
+margin:40px 872px 20px 277px  ;
+
+}
+
+
+
+/* footer section styles */
+footer{
+    display: flex;
+    background-color:#151414 ;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    color: #757575;
+}
+.social-links a{
+    margin-right: 25px;
+
+
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+padding: 18px 35px;
+color: #757575;
+border-radius: 5px;
+background: #151414;
+border: 0;
+width: 100%;
+}
+#btn2{
+    border: 1px solid rgb(139, 133, 133);
+}
+
